@@ -31,5 +31,4 @@ class String
     return array
     binding.pry
   end
-  end
 end
