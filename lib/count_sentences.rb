@@ -28,13 +28,5 @@ class String
 
   def count_sentences
     self.split = new_array
-    counter = 0
-    if self.question?
-      counter +=1
-    elsif self.exclamation?
-      counter +=1
-    elsif self.sentence?
-      counter +=1
-    end
-  end
+    new_array.count
 end
