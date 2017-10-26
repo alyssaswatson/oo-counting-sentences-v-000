@@ -29,4 +29,5 @@ class String
   def count_sentences
     self.split = new_array
     new_array.count
+  end
 end
