@@ -27,6 +27,16 @@ class String
   end
 
   def count_sentences
+    counter = 0
+    if self.question? 
+      counter +=1
+    elsif self.exclamation?
+      counter +=1
+    elsif self.sentence?
+      counter +=1
+    end
+      
+      
 
   end
 end
