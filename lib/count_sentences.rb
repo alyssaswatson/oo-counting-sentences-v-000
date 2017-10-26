@@ -27,6 +27,7 @@ class String
   end
 
   def count_sentences
+    self.split = new_array
     counter = 0
     if self.question?
       counter +=1
